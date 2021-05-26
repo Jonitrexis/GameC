@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Game.Engine.Items.JDBBQuest
 {
-    class EnchantedSword: Sword
+    class EnchantedStaff2: Staff
     {
-        public EnchantedSword() : base("item9001")
+        public EnchantedStaff2(): base("item9004")
         {
-            StrMod = 50;
-            GoldValue = 100;
-            PublicName = "Zaklęty Miecz";
+            MgcMod = 100;
+            GoldValue = 200;
+            PublicName = "Zaklęta Różdżka+";
             PublicTip = "Podczas wykonywania questa miej ten przedmiot wyekwipowany.";
         }
     }
