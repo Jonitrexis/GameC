@@ -303,6 +303,7 @@
     <Resource Include="Display\Assets\Items\item0009.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Engine\Interactions\JDBBQuest\" />
     <Folder Include="Engine\Monsters\Misc\" />
     <Folder Include="Resources\" />
   </ItemGroup>
