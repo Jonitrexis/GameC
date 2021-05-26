@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Game.Engine.Items.JDBBQuest
 {
+    [Serializable]
     class EnchantedStaff2: Staff
     {
+        
         public EnchantedStaff2(): base("item9004")
         {
             MgcMod = 100;

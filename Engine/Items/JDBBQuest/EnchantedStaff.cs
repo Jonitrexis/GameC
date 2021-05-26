@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game.Engine.Items.JDBBQuest
 {
+    [Serializable]
     class EnchantedStaff: Staff
     {
         public EnchantedStaff() : base("item9002")
@@ -15,6 +16,5 @@ namespace Game.Engine.Items.JDBBQuest
             PublicName = "Zaklęta Różdżka";
             PublicTip = "Podczas wykonywania questa miej ten przedmiot wyekwipowany.";
         }
-
     }
 }
