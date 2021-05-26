@@ -83,6 +83,8 @@
     <Compile Include="Engine\Interactions\Built-In\HealInteraction.cs" />
     <Compile Include="Engine\Interactions\InteractionFactories\HealInteractionFactory.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingEncounter.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\KingGivingRewardsFalseState.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\KingGivingRewardsTrueState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingInitialState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingState.cs" />
     <Compile Include="Engine\Items\JDBBQuest\EnchantedStaff.cs" />
