@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game.Engine.Interactions.JDBBQuest
 {
+    [Serializable]
     class KingInitialState : KingState
     {
         public override void RunContent(GameSession ses, KingEncounter myself)
