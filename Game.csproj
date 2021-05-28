@@ -336,6 +336,10 @@
     <Resource Include="Display\Assets\Interactions\interaction9001.png" />
     <Resource Include="Display\Assets\Interactions\Interaction9002.png" />
     <Resource Include="Display\Assets\Interactions\interaction9003.png" />
+    <Resource Include="Display\Assets\Items\item9001.png" />
+    <Resource Include="Display\Assets\Items\item9003.png" />
+    <Resource Include="Display\Assets\Items\item9002.png" />
+    <Resource Include="Display\Assets\Items\item9004.png" />
     <Content Include="Sound\Assets\item_axe.mp3" />
     <Content Include="Sound\Assets\item_spear.mp3" />
     <Content Include="Sound\Assets\item_staff.mp3" />
