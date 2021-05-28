@@ -23,8 +23,8 @@ namespace Game.Engine.Interactions.JDBBQuest
             if (isEnchantedSword)
             {
                 ses.SendText("Twoja pomoc dla naszego królestwa była nieoceniona. Pozwól, że w imieniu swoim i Króla podziękuję Ci poprzez ulepszenie Twojej broni.");
-                ses.RemoveThisItem(new EnchantedStaff());
-                ses.AddThisItem(new EnchantedStaff2());
+                ses.RemoveThisItem(new EnchantedSword());
+                ses.AddThisItem(new EnchantedSword2());
             }
             else
             {
