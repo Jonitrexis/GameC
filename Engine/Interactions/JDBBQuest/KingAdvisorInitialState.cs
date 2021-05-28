@@ -28,7 +28,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                     switch(choice)
                     {
                         case 0:
-                            ses.AddThisItem(new EnchantedStaff());
+                            ses.AddThisItem(Index.ProduceSpecificItem("item9002"));
                             guardian.currentStrategy = new GuardianEnchatedItemStrategy();
                             break;
                         case 1:
@@ -46,7 +46,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                     switch (choice)
                     {
                         case 0:
-                            ses.AddThisItem(new EnchantedSword());
+                            ses.AddThisItem(Index.ProduceSpecificItem("item9001"));
                             guardian.currentStrategy = new GuardianEnchatedItemStrategy();
                             break;
                         case 1:
