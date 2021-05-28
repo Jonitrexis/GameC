@@ -10,7 +10,7 @@ namespace Game.Engine.Interactions.JDBBQuest
     [Serializable]
     class PopeFalseStrategy: IPopeStrategy
     {
-        public bool Execute(GameSession ses, KingEncounter king, bool complete)
+        public bool Execute(GameSession ses, KingEncounter king, bool complete = false)
         {
             if (complete || !ses.TestForItem("item9005"))
             {
