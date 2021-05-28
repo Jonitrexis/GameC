@@ -15,19 +15,19 @@ namespace Game.Engine.Interactions.JDBBQuest
         {
             if (Complete)
             {
-                ses.SendText("Byłeś już u sekretarza? Nie mam dla Ciebie więcej zadań.");
+                ses.SendText("Dowódca Straży: Byłeś już u sekretarza? Nie mam dla Ciebie więcej zadań.");
                 return true;
             }
             else
             {
                 if (ses.CheckStat(7) < 8)
                 {
-                    ses.SendText("Poziom twojego wytrenowania jest niewystarczający do wykonania mojego zadania. Pozdro poćwicz do 8 poziomu.");
+                    ses.SendText("Dowódca Straży: Poziom twojego wytrenowania jest niewystarczający do wykonania mojego zadania. Pozdro poćwicz do 8 poziomu.");
                     return false;
                 }
                 else
                 {
-                    ses.SendText("Nasze wspaniałe królestwo zostało dotknięte plagą pająków.Pół królestwa zawalone pająkami, najgorzej." +
+                    ses.SendText("Dowódca Straży: Nasze wspaniałe królestwo zostało dotknięte plagą pająków.Pół królestwa zawalone pająkami, najgorzej." +
                         "Średnio raz w miesiącu ktoś wdepnie w pajęczynę czy jaja i trzeba wysyłać eksterminatorów, bo to cholerstwo mnoży się straszliwie. Pozbądź się ich.");
                     for (int i = killed; killed < 10; i++, killed++)
                     {
@@ -39,14 +39,14 @@ namespace Game.Engine.Interactions.JDBBQuest
                                 break;
 
                             case 1:
-                                ses.SendText("Gratuluję pokonania wszystkich potworów. Udaj się do Sekretarza, a on poinstruuje Cię dalej.");
+                                ses.SendText("Dowódca Straży: Gratuluję pokonania wszystkich potworów. Udaj się do Sekretarza, a on poinstruuje Cię dalej.");
                                 secretary.ChangeState(new SecretaryInProgressFalseState());
                                 return true;
                             case 2:
                                 return false;
                         }
                     }
-                    ses.SendText("Gratuluję pokonania wszystkich potworów. Udaj się do Sekretarza, a on poinstruuje Cię dalej.");
+                    ses.SendText("Dowódca Straży: Gratuluję pokonania wszystkich potworów. Udaj się do Sekretarza, a on poinstruuje Cię dalej.");
                     secretary.ChangeState(new SecretaryInProgressTrueState());
                     return true;
                 }

@@ -11,7 +11,7 @@ namespace Game.Engine.Interactions.JDBBQuest
     {
         public bool Execute(GameSession ses, SecretaryEncounter secretary, bool Complete = false)
         {
-            ses.SendText("Czego tu szukasz? Zmykaj mi stąd.");
+            ses.SendText("Dowódca Straży: Czego tu szukasz? Zmykaj mi stąd.");
             return false;
         }
     }

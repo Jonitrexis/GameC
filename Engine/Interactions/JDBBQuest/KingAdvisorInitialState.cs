@@ -15,13 +15,13 @@ namespace Game.Engine.Interactions.JDBBQuest
         {
             if (ses.CheckStat(7) < 5)
             {
-                ses.SendText("\nPoziom twojego wytrenowania jest niewystarczający do wykonania mojego zadania. Pozdro poćwicz do 5 poziomu.");
+                ses.SendText("\nDoradca Króla: Poziom twojego wytrenowania jest niewystarczający do wykonania mojego zadania. Pozdro poćwicz do 5 poziomu.");
             }
             else
             {
                 if (ses.TestForItemClass(RequiredItem.Staff))
                 {
-                    ses.SendText("\nWitaj potężny magu doszły mnie wieści, że moi wojownicy potrzebują pomocy." +
+                    ses.SendText("\nDoradca Króla: Witaj potężny magu doszły mnie wieści, że moi wojownicy potrzebują pomocy." +
                         " Udaj się do dowódcy królewskiej straży, który przekaże ci szczegóły." +
                         " Aby ułatawić ci twoje zadanie, mogę zaoferować tą zaklętą różdżkę");
                     int choice = ses.GetListBoxChoice(new List<string>() { "*Weź różdżkę od Doradcy Króla.*", "*odmów*"});
@@ -39,7 +39,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                 }
                 else
                 {
-                    ses.SendText("\nWitaj potężny wojowniku doszły mnie wieści, że moi wojownicy potrzebują pomocy." +
+                    ses.SendText("\nDoradca Króla: Witaj potężny wojowniku doszły mnie wieści, że moi wojownicy potrzebują pomocy." +
                         " Udaj się do dowódcy królewskiej straży, który przekaże ci szczegóły." +
                         " Aby ułatawić ci twoje zadanie, mogę zaoferować ten zaklęty miecz");
                     int choice = ses.GetListBoxChoice(new List<string>() { "*Weź miecz od Doradcy Króla.*", "*odmów*" });

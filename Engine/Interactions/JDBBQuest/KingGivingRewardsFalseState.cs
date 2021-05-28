@@ -18,7 +18,7 @@ namespace Game.Engine.Interactions.JDBBQuest
             bool isEnchantedStaff = ses.TestForItem("item9002");
             if (isEnchantedStaff)
             {
-                ses.SendText("Ty wywłoko nie kochana przez matkę! Król w swojej hojności łaskawie pozwala Ci na wykonanie misji,"+
+                ses.SendText("Król: Ty wywłoko nie kochana przez matkę! Król w swojej hojności łaskawie pozwala Ci na wykonanie misji,"+
                     " a Ty bandyto nie myty swoimi plugawymi ustami kłamstwa obrzydliwe mi tu przedstawiasz? Myślałeś poczwaro, że "+
                     "mój iloraz inteligencji tak samo jak Twój zamyka się w jednocyfrowej liczbie? Obyś sczezł pomiocie diabelski! Niech"+
                     " się rozstąpi pod Tobą ziemia! Niech Cię pochłoną bramy piekielne, a diabły będą zabawiać się torturami Twojego"+
@@ -29,7 +29,7 @@ namespace Game.Engine.Interactions.JDBBQuest
             }
             if (isEnchantedSword)
             {
-                ses.SendText("Ty wywłoko nie kochana przez matkę! Król w swojej hojności łaskawie pozwala Ci na wykonanie misji," +
+                ses.SendText("Król: Ty wywłoko nie kochana przez matkę! Król w swojej hojności łaskawie pozwala Ci na wykonanie misji," +
                     " a Ty bandyto nie myty swoimi plugawymi ustami kłamstwa obrzydliwe mi tu przedstawiasz? Myślałeś poczwaro, że " +
                     "mój iloraz inteligencji tak samo jak Twój zamyka się w jednocyfrowej liczbie? Obyś sczezł pomiocie diabelski! Niech" +
                     " się rozstąpi pod Tobą ziemia! Niech Cię pochłoną bramy piekielne, a diabły będą zabawiać się torturami Twojego" +
@@ -40,7 +40,7 @@ namespace Game.Engine.Interactions.JDBBQuest
             }
             else
             {
-                ses.SendText("Ty wywłoko nie kochana przez matkę! Król w swojej hojności łaskawie pozwala Ci na wykonanie misji,"+ 
+                ses.SendText("Król: Ty wywłoko nie kochana przez matkę! Król w swojej hojności łaskawie pozwala Ci na wykonanie misji," + 
                     "a Ty bandyto nie myty swoimi plugawymi ustami kłamstwa obrzydliwe mi tu przedstawiasz? Myślałeś poczwaro, że " +
                     "mój iloraz inteligencji tak samo jak Twój zamyka się w jednocyfrowej liczbie? Obyś sczezł pomiocie diabelski! Niech"+
                     " się rozstąpi pod Tobą ziemia! Niech Cię pochłoną bramy piekielne, a diabły będą zabawiać się torturami Twojego"+

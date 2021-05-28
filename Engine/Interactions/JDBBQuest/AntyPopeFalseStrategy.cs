@@ -20,12 +20,12 @@ namespace Game.Engine.Interactions.JDBBQuest
             }
             else
             {
-                ses.SendText("Ave Satan, jestem AntyPapieżem. Z czym do mnie przychodzisz?");
+                ses.SendText("AntyPapież: Ave Satan, jestem AntyPapieżem. Z czym do mnie przychodzisz?");
                 int choice = ses.GetListBoxChoice(new List<string>() { "Przynoszę ci FRAGMENT EDENU.", "Nie ważne." });
                 switch (choice)
                 {
                     case 0:
-                        ses.SendText("Nieźle przechytrzyłeś te ciamajdy królewskie. Dzięki za artefakt. Z jego pomocą przejmę władzę nad okręgiem 3 stanów." +
+                        ses.SendText("AntyPapież: Nieźle przechytrzyłeś te ciamajdy królewskie. Dzięki za artefakt. Z jego pomocą przejmę władzę nad okręgiem 3 stanów." +
                             "Weź tą siłę, żebyś mógł dalej gnębić niedojdy z zamku.");
                         ses.RemoveThisItem(new EdenFragment());
                         ses.UpdateStat(2, 8);

@@ -19,12 +19,12 @@ namespace Game.Engine.Interactions.JDBBQuest
             }
             else
             {
-                ses.SendText("Niech będzie pochwalony, jestem Papieżem. Z czym do mnie przychodzisz?");
+                ses.SendText("Papież: Niech będzie pochwalony, jestem Papieżem. Z czym do mnie przychodzisz?");
                 int choice = ses.GetListBoxChoice(new List<string>() { "Przynoszę ci FRAGMENT EDENU.", "Nie ważne." });
                 switch (choice)
                 {
                     case 0:
-                        ses.SendText("Potomku Adama i Ewy wdzięczny jestem Ci za Twe dobre dary. Ten artefakt pomoże mi nieść dobrą nowinę na świat." +
+                        ses.SendText("Papież: Potomku Adama i Ewy wdzięczny jestem Ci za Twe dobre dary. Ten artefakt pomoże mi nieść dobrą nowinę na świat." +
                             "Niech Ci Pan błogosławi, a i ja Ci pobłogosławię. Weź te kilka sztuk złota i udaj się do Króla, który przekaże Ci resztę Twojej nagrody.");
                         ses.RemoveThisItem(new EdenFragment());
                         ses.UpdateStat(8, 5);

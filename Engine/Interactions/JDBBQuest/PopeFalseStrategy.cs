@@ -19,14 +19,14 @@ namespace Game.Engine.Interactions.JDBBQuest
             }
             else
             {
-                ses.SendText("Niech będzie pochwalony, jestem Papieżem. Z czym do mnie przychodzisz?");
+                ses.SendText("Papież: Niech będzie pochwalony, jestem Papieżem. Z czym do mnie przychodzisz?");
                 int choice = ses.GetListBoxChoice(new List<string>() { "Przynoszę ci FRAGMENT EDENU.", "Nie ważne." });
                 switch (choice)
                 {
                     case 0:
-                        ses.SendText("“ ”Kłamstwo jest złym nawykiem człowieka i jest ono stale na ustach ludzi źle wychowanych. Lepszy złodziej niż ten," +
-                            " co stale kłamstwem się posługuje, obydwaj zaś zgubę odziedziczą w spadku. Wzgarda zazwyczaj towarzyszy kłamcy, a hańba stale ciąży na nim.”" +
-                            "Jestem Tobą zawiedziony, za twe czyny spotka Cię zguba!”");
+                        ses.SendText("Papież: ”Kłamstwo jest złym nawykiem człowieka i jest ono stale na ustach ludzi źle wychowanych. Lepszy złodziej niż ten," +
+                            " co stale kłamstwem się posługuje, obydwaj zaś zgubę odziedziczą w spadku. Wzgarda zazwyczaj towarzyszy kłamcy, a hańba stale ciąży na nim.”\n" +
+                            "Jestem Tobą zawiedziony, za twe czyny spotka Cię zguba!");
                         ses.RemoveThisItem(new EdenFragment());
                         ses.FightRandomMonster();
                         ses.FightRandomMonster();

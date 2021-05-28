@@ -19,12 +19,12 @@ namespace Game.Engine.Interactions.JDBBQuest
             }
             else
             {
-                ses.SendText("Ave Satan, jestem AntyPapieżem. Z czym do mnie przychodzisz?");
+                ses.SendText("AntyPapież: Ave Satan, jestem AntyPapieżem. Z czym do mnie przychodzisz?");
                 int choice = ses.GetListBoxChoice(new List<string>() { "Przynoszę ci FRAGMENT EDENU.", "Nie ważne." });
                 switch (choice)
                 {
                     case 0:
-                        ses.SendText("Każdy kłamie, a Ty jeden ćwierćinteligent na całym świecie chcesz prawdę mówić," +
+                        ses.SendText("AntyPapież: Każdy kłamie, a Ty jeden ćwierćinteligent na całym świecie chcesz prawdę mówić," +
                             " głupcze co zaburzył równowagę 400 wymiarów. Skoro taki jesteś chojrak to zobaczymy jak sobie poradzisz z tym!!!");
                         ses.RemoveThisItem(new EdenFragment());
                         ses.FightRandomMonster();
