@@ -6,6 +6,7 @@ using Game.Engine.Items;
 using Game.Engine.Items.ItemFactories;
 using Game.Engine.Items.BasicArmor;
 using Game.Engine.Interactions.InteractionFactories;
+using Game.Engine.Items.JDBBQuest;
 
 
 namespace Game.Engine
@@ -30,6 +31,10 @@ namespace Game.Engine
             new GrowingStoneArmor(),
             // quest items (if applicable) start below
             new GymirAxe(),
+            new EnchantedStaff(),
+            new EnchantedStaff2(),
+            new EnchantedSword(),
+            new EnchantedSword2(),
         };
 
         private static List<ItemFactory> itemFactories = new List<ItemFactory>()
