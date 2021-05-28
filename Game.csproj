@@ -83,13 +83,11 @@
     <Compile Include="Engine\Interactions\Built-In\HealInteraction.cs" />
     <Compile Include="Engine\Interactions\InteractionFactories\HealInteractionFactory.cs" />
     <Compile Include="Engine\Interactions\InteractionFactories\JDBBQuestFactory.cs" />
-    <Compile Include="Engine\Interactions\JDBBQuest\AntyPopeCompleteStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\AntyPopeEncounter.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\AntyPopeFalseStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\AntyPopeInitialStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\AntyPopeTrueStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\GuardianBasicItemStrategy.cs" />
-    <Compile Include="Engine\Interactions\JDBBQuest\GuardianCompleteStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\GuardianEnchatedItemStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\GuardianEncounter.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\GuardianInitialStrategy.cs" />
@@ -105,7 +103,6 @@
     <Compile Include="Engine\Interactions\JDBBQuest\KingGivingRewardsTrueState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingInitialState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingState.cs" />
-    <Compile Include="Engine\Interactions\JDBBQuest\PopeCompleteStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\PopeEncounter.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\PopeFalseStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\PopeInitialStrategy.cs" />

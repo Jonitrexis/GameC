@@ -36,6 +36,7 @@ namespace Game.Engine
             new EnchantedStaff2(),
             new EnchantedSword(),
             new EnchantedSword2(),
+            new EdenFragment(),
         };
 
         private static List<ItemFactory> itemFactories = new List<ItemFactory>()
