@@ -87,7 +87,10 @@
     <Compile Include="Engine\Interactions\JDBBQuest\AntyPopeFalseStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\AntyPopeInitialStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\AntyPopeTrueStrategy.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\GuardianEncounter.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\GuardianInitialStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\IAntyPopeStrategy.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\IGuardianStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\IPopeStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingEncounter.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingGivingRewardsFalseState.cs" />
