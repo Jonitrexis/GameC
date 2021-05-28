@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Game.Engine.Items.JDBBQuest;
 
 namespace Game.Engine.Interactions.JDBBQuest
 {
@@ -26,6 +27,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                         ses.SendText("“ ”Kłamstwo jest złym nawykiem człowieka i jest ono stale na ustach ludzi źle wychowanych. Lepszy złodziej niż ten," +
                             " co stale kłamstwem się posługuje, obydwaj zaś zgubę odziedziczą w spadku. Wzgarda zazwyczaj towarzyszy kłamcy, a hańba stale ciąży na nim.”" +
                             "Jestem Tobą zawiedziony, za twe czyny spotka Cię zguba!”");
+                        ses.RemoveThisItem(new EdenFragment());
                         ses.FightRandomMonster();
                         ses.FightRandomMonster();
                         ses.FightRandomMonster();

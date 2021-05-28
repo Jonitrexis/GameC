@@ -8,7 +8,7 @@ namespace Game.Engine.Items.JDBBQuest
 {
     class EdenFragment:JDBBQuestItem
     {
-        EdenFragment() : base("item9005")
+        public EdenFragment() : base("item9005")
         {
             PublicName = "Fragment Edenu";
             GoldValue = 0;

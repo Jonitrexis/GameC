@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Game.Engine.Items.JDBBQuest;
 
 namespace Game.Engine.Interactions.JDBBQuest
 {   
@@ -25,6 +26,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                     case 0:
                         ses.SendText("Każdy kłamie, a Ty jeden ćwierćinteligent na całym świecie chcesz prawdę mówić," +
                             " głupcze co zaburzył równowagę 400 wymiarów. Skoro taki jesteś chojrak to zobaczymy jak sobie poradzisz z tym!!!");
+                        ses.RemoveThisItem(new EdenFragment());
                         ses.FightRandomMonster();
                         ses.FightRandomMonster();
                         ses.FightRandomMonster();

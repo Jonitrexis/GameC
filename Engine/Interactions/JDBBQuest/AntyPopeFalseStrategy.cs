@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Game.Engine.Items.JDBBQuest;
+
 
 namespace Game.Engine.Interactions.JDBBQuest
 {
@@ -25,6 +27,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                     case 0:
                         ses.SendText("Nieźle przechytrzyłeś te ciamajdy królewskie. Dzięki za artefakt. Z jego pomocą przejmę władzę nad okręgiem 3 stanów." +
                             "Weź tą siłę, żebyś mógł dalej gnębić niedojdy z zamku.");
+                        ses.RemoveThisItem(new EdenFragment());
                         ses.UpdateStat(2, 8);
                         king.ChangeState(new KingInitialState(), true);
                         return true;
