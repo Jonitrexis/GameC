@@ -16,9 +16,9 @@ namespace Game.Engine.CharacterClasses
             Strength = 20;
             Armor = 0;
             Precision = 50;
-            MagicPower = 50;
+            MagicPower = 500;
             Stamina = 100;
-            Level = 1;
+            Level = 8;
             Gold = 0;
         }
 
