@@ -29,7 +29,6 @@ namespace Game.Engine.Interactions.JDBBQuest
                             "Weź tą siłę, żebyś mógł dalej gnębić niedojdy z zamku.");
                         ses.RemoveThisItem(new EdenFragment());
                         ses.UpdateStat(2, 8);
-                        king.ChangeState(new KingInitialState(), true);
                         return true;
                     case 1:
                         break;
