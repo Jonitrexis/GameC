@@ -1,5 +1,5 @@
 ﻿using System;
-using Game.Engine.Monsters
+using Game.Engine.Monsters;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
