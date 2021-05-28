@@ -11,7 +11,7 @@ namespace Game.Engine.Interactions.JDBBQuest
     {
         public bool Execute(GameSession ses, KingEncounter king, bool Complete = false)
         {
-            ses.SendText("Nie wiem.");
+            ses.SendText("Papież: Nie wiem.");
             return false;
         }
     }

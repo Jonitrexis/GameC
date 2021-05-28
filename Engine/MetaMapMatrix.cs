@@ -10,10 +10,10 @@ namespace Game.Engine
     {
         // world parameters
         private const int maps = 2; // how many maps in total in the game world // must be minimum 2 
-        private const int minPortals = 1; // number of portals
+        private const int minPortals = 2; // number of portals
         private const int shops = 0; // number of shops in the game world
         private const int interactions = 10; // approximate number of all interactions (including shops) in the game world (not strictly guaranteed due to quest constraints)
-        private const int monsters = 6; // monsters per single map
+        private const int monsters = 10; // monsters per single map
         private const int walls = 20; // approximate number of walls per single map (not strictly guaranteed due to movement constraints)
         
        

@@ -21,6 +21,7 @@ namespace Game.Engine.Interactions.JDBBQuest
         protected override void RunContent()
         {
             Complete = currentStrategy.Execute(parentSession, secretary, Complete);
+          
         }
     }
 }
