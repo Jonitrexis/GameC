@@ -11,7 +11,7 @@ namespace Game.Engine.Interactions.JDBBQuest
     {
         public override void RunContent(GameSession ses, KingAdvisorEncounter myself, GuardianEncounter guardian)
         {
-            ses.SendText("\nNie mam dla Ciebie więcej zadań.");
+            ses.SendText("\nNie mam dla Ciebie więcej zadań. Powodzenia w Twoich kolejnych wędrówkach.");
         }
     }
 }

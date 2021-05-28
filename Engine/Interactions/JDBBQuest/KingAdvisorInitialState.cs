@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Game.Engine.Items.JDBBQuest;
+using Game.Engine.Interactions.JDBBQuest;
 
 namespace Game.Engine.Interactions.JDBBQuest
 {
@@ -26,10 +27,13 @@ namespace Game.Engine.Interactions.JDBBQuest
                 {
                     case 0:
                         ses.AddThisItem(new EnchantedStaff());
+                        guardian.currentStrategy = new GuardianEnchatedItemStrategy();
                         break;
                     case 1:
+                        guardian.currentStrategy = new GuardianBasicItemStrategy();
                         break;
                 }
+                myself.ChangeState(new KingAdvisordCompleteState(), true);
             }
             else
             {
@@ -41,10 +45,13 @@ namespace Game.Engine.Interactions.JDBBQuest
                 {
                     case 0:
                         ses.AddThisItem(new EnchantedSword());
+                        guardian.currentStrategy = new GuardianEnchatedItemStrategy();
                         break;
                     case 1:
+                        guardian.currentStrategy = new GuardianBasicItemStrategy();
                         break;
                 }
+                myself.ChangeState(new KingAdvisordCompleteState(), true);
             }
         }
     }

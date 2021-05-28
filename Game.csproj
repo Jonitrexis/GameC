@@ -98,7 +98,6 @@
     <Compile Include="Engine\Interactions\JDBBQuest\KingAdvisordCompleteState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingAdvisorEncounter.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingAdvisorInitialState.cs" />
-    <Compile Include="Engine\Interactions\JDBBQuest\KingAdvisorInProgressState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingAdvisorState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingEncounter.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingGivingRewardsFalseState.cs" />
