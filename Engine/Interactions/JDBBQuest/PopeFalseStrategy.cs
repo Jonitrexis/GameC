@@ -11,7 +11,7 @@ namespace Game.Engine.Interactions.JDBBQuest
     {
         public bool Execute(GameSession ses, KingEncounter king, bool complete)
         {
-            if (complete)
+            if (complete || !ses.TestForItem("item9005"))
             {
                 ses.SendText("*Nie zauważa Cię pochłonięty modlitwą*");
                 return true;
