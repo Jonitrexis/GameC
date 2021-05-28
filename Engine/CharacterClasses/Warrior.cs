@@ -13,12 +13,12 @@ namespace Game.Engine.CharacterClasses
             // initial class statistics
             ClassName = "Warrior"; 
             Health = 100;
-            Strength = 50;
+            Strength = 150;
             Armor = 0;
             Precision = 50;
             MagicPower = 0;
             Stamina = 100;
-            Level = 1;
+            Level = 8;
             Gold = 0;
         }
 

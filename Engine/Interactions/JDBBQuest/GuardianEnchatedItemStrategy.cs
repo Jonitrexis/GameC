@@ -22,7 +22,7 @@ namespace Game.Engine.Interactions.JDBBQuest
             {
                 ses.SendText("Nasze wspaniałe królestwo zostało dotknięte plagą pająków.Pół królestwa zawalone pająkami, najgorzej." +
                     "Średnio raz w miesiącu ktoś wdepnie w pajęczynę czy jaja i trzeba wysyłać eksterminatorów, bo to cholerstwo mnoży się straszliwie. Pozbądź się ich.");
-                for (int i = killed; killed <= 10; i++, killed++)
+                for (int i = killed; killed < 10; i++, killed++)
                 {
                     int choice = ses.GetListBoxChoice(new List<string>() { "Wlacz.", "Skłam", "Odejdź." });
                     switch (choice)
