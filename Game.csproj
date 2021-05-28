@@ -92,6 +92,11 @@
     <Compile Include="Engine\Interactions\JDBBQuest\IAntyPopeStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\IGuardianStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\IPopeStrategy.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\KingAdvisordCompleteState.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\KingAdvisorEncounter.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\KingAdvisorInitialState.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\KingAdvisorInProgressState.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\KingAdvisorState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingEncounter.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingGivingRewardsFalseState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\KingGivingRewardsTrueState.cs" />
