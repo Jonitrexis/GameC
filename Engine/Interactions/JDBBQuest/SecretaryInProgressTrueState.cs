@@ -14,8 +14,8 @@ namespace Game.Engine.Interactions.JDBBQuest
             ses.SendText("\nWitaj wędrowcze, dzięki Ci za rozprawienie się z potworami." +
                 " Miałbym dla Ciebie jeszcze jedno zlecenie. Potrzebuję by ktoś odpowiedzialny" +
                 " przekazał ten oto FRAGMENT EDENU Papieżowi. Pod żadnym pozorem nie zanoś go AntyPapieżowi!");
-            antyPope.currentStrategy = new AntyPopeFalseStrategy();
-            pope.currentStrategy = new PopeFalseStrategy();
+            antyPope.currentStrategy = new AntyPopeTrueStrategy();
+            pope.currentStrategy = new PopeTrueStrategy();
             myself.ChangeState(new SecretaryCompleteState(), true);
         }
     }
