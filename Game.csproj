@@ -99,6 +99,9 @@
     <Compile Include="Engine\Interactions\JDBBQuest\PopeFalseStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\PopeInitialStrategy.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\PopeTrueStrategy.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\SecretaryEncounter.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\SecretaryInitialState.cs" />
+    <Compile Include="Engine\Interactions\JDBBQuest\SecretaryState.cs" />
     <Compile Include="Engine\Items\JDBBQuest\EnchantedStaff.cs" />
     <Compile Include="Engine\Items\JDBBQuest\EnchantedStaff2.cs" />
     <Compile Include="Engine\Items\JDBBQuest\EnchantedSword.cs" />
