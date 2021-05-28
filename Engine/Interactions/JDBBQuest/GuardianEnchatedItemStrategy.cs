@@ -31,7 +31,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                         "Średnio raz w miesiącu ktoś wdepnie w pajęczynę czy jaja i trzeba wysyłać eksterminatorów, bo to cholerstwo mnoży się straszliwie. Pozbądź się ich.");
                     for (int i = killed; killed < 10; i++, killed++)
                     {
-                        int choice = ses.GetListBoxChoice(new List<string>() { "Wlacz.", "Skłam", "Odejdź." });
+                        int choice = ses.GetListBoxChoice(new List<string>() { "Walcz.", "Skłam", "Odejdź." });
                         switch (choice)
                         {
                             case 0:

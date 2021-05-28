@@ -31,7 +31,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                         "bestyje zajadliwe są i wszystkich szczurołapów zeżarły. Pokonanie ich przyniesie Ci wieczną cześć i chwałę. Powodzenia!");
                     for (int i = killed; i < 7; i++, killed++)
                     {
-                        int choice = ses.GetListBoxChoice(new List<string>() { "Wlacz.", "Skłam", "Odejdź." });
+                        int choice = ses.GetListBoxChoice(new List<string>() { "Walcz.", "Skłam", "Odejdź." });
                         switch (choice)
                         {
                             case 0:

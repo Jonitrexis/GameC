@@ -16,13 +16,13 @@ namespace Game.Engine.Interactions.JDBBQuest
             bool isEnchantedStaff = ses.TestForItem("item9002");
             if(isEnchantedStaff)
             {
-                ses.SendText("Król: Twoja pomoc dla naszego królestwa była nieoceniona. Pozwól, że w imieniu swoim i Króla podziękuję Ci poprzez ulepszenie Twojej broni.");
+                ses.SendText("Król: Twoja pomoc dla naszego królestwa była nieoceniona. Pozwól, że podziękuję Ci poprzez ulepszenie Twojej broni.");
                 ses.RemoveThisItem(new EnchantedStaff());
                 ses.AddThisItem(new EnchantedStaff2());
             }
             if (isEnchantedSword)
             {
-                ses.SendText("Król: Twoja pomoc dla naszego królestwa była nieoceniona. Pozwól, że w imieniu swoim i Króla podziękuję Ci poprzez ulepszenie Twojej broni.");
+                ses.SendText("Król: Twoja pomoc dla naszego królestwa była nieoceniona. Pozwól, że podziękuję Ci poprzez ulepszenie Twojej broni.");
                 ses.RemoveThisItem(new EnchantedSword());
                 ses.AddThisItem(new EnchantedSword2());
             }
