@@ -35,7 +35,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                     " się rozstąpi pod Tobą ziemia! Niech Cię pochłoną bramy piekielne, a diabły będą zabawiać się torturami Twojego" +
                     " nędznego ciała. Niech Ci się nawet nie roi w Twoim mysim móżdżku, że nagrodę dostaniesz! W Twoich brudnych łapskach" +
                     " nie powinien znajdować się tak dobry przedmiot. Dla takich jak Ty to są zafajdane sztachetki, których nikt by nawet kijem przez szmatę nie dotknął. A kysz! A kysz! Zgiń przepadnij!");
-                ses.RemoveThisItem(new EnchantedStaff());
+                ses.RemoveThisItem(new EnchantedSword());
                 ses.AddThisItem(new BasicSword());
             }
             else
