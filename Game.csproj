@@ -116,6 +116,8 @@
     <Compile Include="Engine\Interactions\JDBBQuest\SecretaryInProgressFalseState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\SecretaryInProgressTrueState.cs" />
     <Compile Include="Engine\Interactions\JDBBQuest\SecretaryState.cs" />
+    <Compile Include="Engine\Items\JDBBQuest\EdenFragment.cs" />
+    <Compile Include="Engine\Items\JDBBQuest\JDBBQuestItem.cs" />
     <Compile Include="Engine\Items\JDBBQuest\EnchantedStaff.cs" />
     <Compile Include="Engine\Items\JDBBQuest\EnchantedStaff2.cs" />
     <Compile Include="Engine\Items\JDBBQuest\EnchantedSword.cs" />
