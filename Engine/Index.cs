@@ -7,6 +7,7 @@ using Game.Engine.Items.ItemFactories;
 using Game.Engine.Items.BasicArmor;
 using Game.Engine.Interactions.InteractionFactories;
 using Game.Engine.Items.JDBBQuest;
+using Game.Engine.Interactions.JDBBQuest;
 
 
 namespace Game.Engine
@@ -65,6 +66,7 @@ namespace Game.Engine
         {
             new SkillForgetFactory(),
             new HealInteractionFactory(),
+            new JDBBQuestFactory(),
         };
 
     }
