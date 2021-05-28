@@ -10,7 +10,7 @@ namespace Game.Engine.Interactions.JDBBQuest
     class AntyPopeEncounter : PlayerInteraction
     {
         public IAntyPopeStrategy currentStrategy { get; set; }
-        public KingEncounter king { get; set; }
+        private KingEncounter king { get; set; }
 
         public AntyPopeEncounter(GameSession ses, KingEncounter king) : base(ses)
         {
