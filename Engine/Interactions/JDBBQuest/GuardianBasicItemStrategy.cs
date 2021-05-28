@@ -22,7 +22,7 @@ namespace Game.Engine.Interactions.JDBBQuest
             {
                 ses.SendText("Nasze królestwo męczy epidemia szczurów. Co raz któryś kogoś ugryzie i już kolejna czarna plaga się zaczyna, a" +
                     "bestyje zajadliwe są i wszystkich szczurołapów zeżarły. Pokonanie ich przyniesie Ci wieczną cześć i chwałę. Powodzenia!");
-                for (int i = killed; i <= 7; i++, killed++)
+                for (int i = killed; i < 7; i++, killed++)
                 {
                     int choice = ses.GetListBoxChoice(new List<string>() { "Wlacz.", "Skłam", "Odejdź." });
                     switch (choice)
