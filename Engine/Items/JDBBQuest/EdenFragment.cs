@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game.Engine.Items.JDBBQuest
 {
+    [Serializable]
     class EdenFragment:JDBBQuestItem
     {
         public EdenFragment() : base("item9005")
