@@ -29,10 +29,10 @@ namespace Game.Engine.Interactions.JDBBQuest
                     {
                         case 0:
                             ses.AddThisItem(Index.ProduceSpecificItem("item9002"));
-                            guardian.currentStrategy = new GuardianEnchatedItemStrategy();
+                            guardian.CurrentStrategy = new GuardianEnchatedItemStrategy();
                             break;
                         case 1:
-                            guardian.currentStrategy = new GuardianBasicItemStrategy();
+                            guardian.CurrentStrategy = new GuardianBasicItemStrategy();
                             break;
                     }
                     myself.ChangeState(new KingAdvisordCompleteState(), true);
@@ -47,10 +47,10 @@ namespace Game.Engine.Interactions.JDBBQuest
                     {
                         case 0:
                             ses.AddThisItem(Index.ProduceSpecificItem("item9001"));
-                            guardian.currentStrategy = new GuardianEnchatedItemStrategy();
+                            guardian.CurrentStrategy = new GuardianEnchatedItemStrategy();
                             break;
                         case 1:
-                            guardian.currentStrategy = new GuardianBasicItemStrategy();
+                            guardian.CurrentStrategy = new GuardianBasicItemStrategy();
                             break;
                     }
                     myself.ChangeState(new KingAdvisordCompleteState(), true);
