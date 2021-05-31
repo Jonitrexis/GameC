@@ -25,7 +25,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                     " nędznego ciała. Niech Ci się nawet nie roi w Twoim mysim móżdżku, że nagrodę dostaniesz! W Twoich brudnych łapskach"+
                     " nie powinien znajdować się tak dobry przedmiot. Dla takich jak Ty to są zafajdane sztachetki, których nikt by nawet kijem przez szmatę nie dotknął. A kysz! A kysz! Zgiń przepadnij!");
                 ses.RemoveThisItem(new EnchantedStaff());
-                ses.AddThisItem(Index.ProduceSpecificItem("item9004"));
+                ses.AddThisItem(Index.ProduceSpecificItem("item0001"));
             }
             if (isEnchantedSword)
             {
@@ -36,7 +36,7 @@ namespace Game.Engine.Interactions.JDBBQuest
                     " nędznego ciała. Niech Ci się nawet nie roi w Twoim mysim móżdżku, że nagrodę dostaniesz! W Twoich brudnych łapskach" +
                     " nie powinien znajdować się tak dobry przedmiot. Dla takich jak Ty to są zafajdane sztachetki, których nikt by nawet kijem przez szmatę nie dotknął. A kysz! A kysz! Zgiń przepadnij!");
                 ses.RemoveThisItem(new EnchantedSword());
-                ses.AddThisItem(Index.ProduceSpecificItem("item9003"));
+                ses.AddThisItem(Index.ProduceSpecificItem("item0004"));
             }
             else
             {
