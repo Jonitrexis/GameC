@@ -18,13 +18,13 @@ namespace Game.Engine.Interactions.JDBBQuest
             {
                 ses.SendText("Król: Twoja pomoc dla naszego królestwa była nieoceniona. Pozwól, że podziękuję Ci poprzez ulepszenie Twojej broni.");
                 ses.RemoveThisItem(new EnchantedStaff());
-                ses.AddThisItem(new EnchantedStaff2());
+                ses.AddThisItem(Index.ProduceSpecificItem("item9004"));
             }
             if (isEnchantedSword)
             {
                 ses.SendText("Król: Twoja pomoc dla naszego królestwa była nieoceniona. Pozwól, że podziękuję Ci poprzez ulepszenie Twojej broni.");
                 ses.RemoveThisItem(new EnchantedSword());
-                ses.AddThisItem(new EnchantedSword2());
+                ses.AddThisItem(Index.ProduceSpecificItem("item9003"));
             }
             else
             {
